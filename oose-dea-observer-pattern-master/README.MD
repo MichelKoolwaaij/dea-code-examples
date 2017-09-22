@@ -31,3 +31,8 @@ in de klasse `Teachings.java`.
 * Zorg ervoor dat studenten bijhouden hoeveel notities ze gemaakt hebben (verlaag de teller met 1 wanneer `makeNotes()` wordt aangeroepen).
 * Zorg ervoor dat als de teller op 0 staat, de Student zichzelf deregistreerd als `Observable`.
 * Zorg ervoor dat de docent stop met doceren wanneer er geen studenten meer naar hem luisteren. Merk hiervoor op dat een `Observable` de methode `countObservers()` heeft.
+
+## Stap 5 Verlagen koppeling
+In de huidige oplossing kent de observer de observable. Dit zorgt voor koppeling tussen de observers en de observable.
+* Maak een klasse Les die zorgt voor de koppeling tussen de teacher en de students, zodat deze elkaar niet kennen.
+* Wat vind je zelf een nettere oplossing. Met de klasse Les? Of zonder?
