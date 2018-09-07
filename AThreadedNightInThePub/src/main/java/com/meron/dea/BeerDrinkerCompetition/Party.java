@@ -22,11 +22,11 @@ public class Party {
     private void initBeerdrinkers() {
         this.drinkers = new ArrayList<BeerDrinker>();
 
-        drinkers.add(new BeerDrinker("Meron", keg));
-        drinkers.add(new BeerDrinker("Robin", keg));
-        drinkers.add(new BeerDrinker("Koen", keg));
-        drinkers.add(new BeerDrinker("Leon", keg));
-        drinkers.add(new BeerDrinker("Anne", keg));
+        drinkers.add(new BeerDrinker("Jannick", keg));
+        drinkers.add(new BeerDrinker("Daniel", keg));
+        drinkers.add(new BeerDrinker("Valerie", keg));
+        drinkers.add(new BeerDrinker("Jeroen", keg));
+        drinkers.add(new BeerDrinker("Tom", keg));
     }
 
     public void startParty() {
