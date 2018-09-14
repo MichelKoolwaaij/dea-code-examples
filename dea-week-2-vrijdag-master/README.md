@@ -1,4 +1,4 @@
-# dea-week-2-vrijdag
+# Oefening Primetester
 
 ## Deel 1 opzet
 
