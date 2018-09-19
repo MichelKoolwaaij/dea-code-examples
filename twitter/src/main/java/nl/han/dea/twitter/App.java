@@ -3,19 +3,19 @@ package nl.han.dea.twitter;
 public class App {
 	public static void main(String[] args) {
 		TwitterUser michel = new TwitterUser("Michel");
-		TwitterUser herman = new TwitterUser("Herman");
+		TwitterUser marco = new TwitterUser("Marco");
 		
-		Follower bram = new Follower("Bram");
-		Follower luc = new Follower("Luc");
-		Follower sven = new Follower("Sven");
+		Follower steven = new Follower("Steven");
+		Follower bonno = new Follower("Bonno");
+		Follower klaas = new Follower("Klaas");
 		
-		michel.addFollower(bram);
-		herman.addFollower(bram);
-		herman.addFollower(luc);
-		herman.addFollower(sven);
+		michel.addFollower(steven);
+		marco.addFollower(steven);
+		marco.addFollower(bonno);
+		marco.addFollower(klaas);
 				
-		michel.tweet("Studenten #DEA vinden patterns maar saai.");
-		herman.tweet("Waarom staat dat lijntje daar?");
+		michel.tweet("Mag het een interfeesje meer zijn?");
+		marco.tweet("Dit domein model bevat navigatiepijlen, visibilty en datatypes. Foei!!!");
 		
 	}
 }
