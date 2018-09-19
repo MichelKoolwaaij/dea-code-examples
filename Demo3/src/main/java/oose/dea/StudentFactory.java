@@ -1,5 +1,6 @@
 package oose.dea;
 
+import javax.inject.Singleton;
 import java.sql.SQLException;
 
 /**

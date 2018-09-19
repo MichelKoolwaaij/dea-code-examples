@@ -10,6 +10,7 @@ public class Student implements IStudent {
     private String voornaam;
     private int id;
     private static int aantal=0;
+    private Geslacht geslacht;
 
     public Student(String naam, String voornaam) {
         this.achternaam = naam;
@@ -33,6 +34,7 @@ public class Student implements IStudent {
     public int getId() {
         return id;
     }
+
 
 
 }

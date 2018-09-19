@@ -3,6 +3,8 @@ package oose.dea;
 import org.junit.Before;
 import org.junit.Test;
 
+import javax.inject.Inject;
+
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertTrue;
 
@@ -14,7 +16,7 @@ public class DemoTest {
 
     @Before
     public void initStudent(){
-        // init
+        // Arrange
         student = new Student("Koolwaaij", "Michel");
 
     }
@@ -22,33 +24,33 @@ public class DemoTest {
     @Test
     public void testStudentGetNaam(){
 
-        // test
+        // Act
         String naam = student.getAchternaam();
 
-        // controle
+        // Assert
         assertEquals("Koolwaaij",naam);
     }
 
     @Test
     public void testStudentGetMail(){
 
-        // test
+        // Act
         String mail = student.getMail();
 
-        // controle
+        // Assert
         assertEquals("Michel.Koolwaaij@student.han.nl",mail);
 
     }
 
     @Test
     public void testStudentGetMailWithSpaces(){
-        // init
+        // Arrange
         Student student = new Student("De Vries", "Michel");
 
-        // test
+        // Act
         String mail = student.getMail();
 
-        // controle
+        // Assert
         assertEquals("Michel.DeVries@student.han.nl",mail);
 
     }
@@ -56,47 +58,49 @@ public class DemoTest {
     @Test
     public void testStudentGetVoornaam(){
 
-        // test
+        // Act
         String naam = student.getVoornaam();
 
-        // controle
+        // Assert
         assertEquals("Michel",naam);
     }
     
     @Test
     public void testStudentGetId(){
-        // init
+        // Arrange
         IStudent student2 = new Student("De Vries", "Michel");
         
-        // test
+        // Act
         boolean idHoger = (student2.getId() > student.getId());
         
-        // controle
+        // Assert
         assertTrue(idHoger);
     }
 
+
+/*
     @Test
     public void testExterneStudentGetMail(){
-        // init
+        // Arrange
         ExterneStudent externeStudent = new ExterneStudent("Merel","Arends","M.Arends@externeschool.nl",177);
 
-        // test
+        // Act
         IStudent externeStudentAdapter = new StudentAdapter(externeStudent);
 
-        // controle
+        // Assert
         assertEquals("M.Arends@externeschool.nl", externeStudentAdapter.getMail());
     }
 
     @Test
     public void testStudentFactoryExtern(){
-        // Init
+        // Arrange
         StudentFactory factory = StudentFactory.getInstance();
         IStudent eenStudent = factory.createStudent(StudentType.Extern,"Belle","Beest","Belle.Beest@anderschool.nl",600);
 
-        //Test
+        //Act
         String email = eenStudent.getMail();
 
-        // Controle
+        // Assert
         assertEquals("Belle.Beest@anderschool.nl",email);
 
     }
@@ -104,15 +108,16 @@ public class DemoTest {
 
     @Test
     public void testStudentFactoryIntern(){
-        // Init
+        // Arrange
         StudentFactory factory = StudentFactory.getInstance();
         IStudent eenStudent = factory.createStudent(StudentType.Intern,"Belle","Beest","Beest.Belle@anderschool.nl",600);
 
-        //Test
+        // Act
         String email = eenStudent.getMail();
 
-        // Controle
+        // Assert
         assertEquals("Beest.Belle@student.han.nl",email);
 
     }
+    */
 }
