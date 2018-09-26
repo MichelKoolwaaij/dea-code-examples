@@ -1,0 +1,63 @@
+GET http://localhost:8080/resources
+Accept: */*
+Cache-Control: no-cache
+
+###
+
+GET http://localhost:8080/resources
+Accept: */*
+Cache-Control: no-cache
+
+###
+
+GET http://localhost:8080/resources
+Accept: */*
+Cache-Control: no-cache
+
+###
+
+GET http://localhost:8080/resources
+Accept: */*
+Cache-Control: no-cache
+
+###
+
+GET http://localhost:8080/resources
+Accept: */*
+Cache-Control: no-cache
+
+###
+
+GET http://localhost:8080/resources
+Accept: */*
+Cache-Control: no-cache
+
+###
+
+GET https://httpbin.org/get?show_env=1
+Accept: application/json
+
+<> 2018-09-21T043811.200.json
+
+###
+
+GET http://localhost:8080/resources/test
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-09-21T043712.200.txt
+
+###
+
+GET http://localhost:8080/resources
+Accept: */*
+Cache-Control: no-cache
+
+###
+
+GET http://localhost:8080/resources
+Accept: */*
+Cache-Control: no-cache
+
+###
+

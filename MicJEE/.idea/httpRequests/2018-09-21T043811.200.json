@@ -1,0 +1,22 @@
+{
+  "args": {
+    "show_env": "1"
+  },
+  "headers": {
+    "Accept": "application/json",
+    "Accept-Encoding": "gzip,deflate",
+    "Connect-Time": "0",
+    "Connection": "close",
+    "Host": "httpbin.org",
+    "Total-Route-Time": "0",
+    "User-Agent": "Apache-HttpClient/4.5.2 (Java/1.8.0_152-release)",
+    "Via": "1.1 vegur",
+    "X-Forwarded-For": "145.74.219.234",
+    "X-Forwarded-Port": "443",
+    "X-Forwarded-Proto": "https",
+    "X-Request-Id": "c210e8e5-26b6-4d1b-ae80-51f72a5fcf2a",
+    "X-Request-Start": "1537540691068"
+  },
+  "origin": "145.74.219.234",
+  "url": "https://httpbin.org/get?show_env=1"
+}
