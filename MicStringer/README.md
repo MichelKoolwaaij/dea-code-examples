@@ -7,5 +7,5 @@
 5. Als je een POST doet naar //localhost:8081/stringer/reverse dan krijg je op basis van een meegegeven string het hele object in json terug. Inclusief de http Ok status.
 6. Neem de klasse StringCalc in je applicatie op.
 7. Gebruik het adapter pattern om de StringCalc te converten naar IStringer. Uiteraard mag je de StringCalc niet aanpassen, behalve de package.
-8. Zorg ervoor dat als je http://localhost:8081/stringer/reverse/27+5 aanroept, deze adapter gebruikt om de reverse van de optelling op het scherm te zetten.
+8. Zorg ervoor dat als je http://localhost:8081/stringer/reverse/27+5 aanroept, deze adapter gebruikt om de reverse van de optelling in json terug te sturen. Het bericht ziet er als volgt uit: {"Reverse calced":"585"}
 9. Controleer of er in de bij 8 gebruikte parameter wel een +, - of * zit. Zo niet, retourneer dan een error code 400.
