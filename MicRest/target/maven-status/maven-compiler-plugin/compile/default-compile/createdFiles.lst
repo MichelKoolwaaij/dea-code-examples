@@ -1,0 +1,8 @@
+oose/dea/dao/OtherItemDAO.class
+oose/dea/dao/YetOtherItemDAO.class
+oose/dea/services/rest/ItemRestService.class
+oose/dea/Interface/ItemService.class
+oose/dea/dao/FakeItemDAO.class
+oose/dea/domain/Item.class
+oose/dea/dao/OnlyRealDAO.class
+oose/dea/Interface/ItemDAO.class
